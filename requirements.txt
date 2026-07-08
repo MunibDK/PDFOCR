@@ -1,0 +1,74 @@
+Extraction run: 2026-07-08T13:13:40
+================================================================================
+
+File: corrupted.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:30
+  OCR used:             False
+  Records extracted:    0
+  Validation issues:    0
+  Processing notes:
+    - Unhandled error while reading/parsing this PDF: PdfminerException: Unexpected EOF. File is likely corrupted, password-protected, or not a valid PDF.
+
+File: full_15_pages.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:30
+  OCR used:             False
+  Records extracted:    36
+  Validation issues:    0
+  Processing notes:     none
+
+File: multi_page_3.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:31
+  OCR used:             False
+  Records extracted:    7
+  Validation issues:    0
+  Processing notes:     none
+
+File: not_a_real_pdf.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:32
+  OCR used:             False
+  Records extracted:    0
+  Validation issues:    0
+  Processing notes:
+    - Unhandled error while reading/parsing this PDF: PdfminerException: No /Root object! - Is this really a PDF?. File is likely corrupted, password-protected, or not a valid PDF.
+
+File: scanned_page1.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:32
+  OCR used:             True
+  Records extracted:    0
+  Validation issues:    0
+  Processing notes:
+    - OCR fallback used; per-line extraction from OCR text is not implemented in this vendor-110002 module (text-based template only). Manual review required for this file.
+
+File: single_page.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:40
+  OCR used:             False
+  Records extracted:    2
+  Validation issues:    0
+  Processing notes:     none
+
+File: single_page_duplicate.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:40
+  OCR used:             False
+  Records extracted:    2
+  Validation issues:    0
+  Processing notes:     none
+
+File: synthetic_missing_values.pdf
+  Vendor code:          110002
+  Extraction datetime:  2026-07-08T13:13:40
+  OCR used:             False
+  Records extracted:    2
+  Validation issues:    2
+  Processing notes:
+    - Page 1: footer boundary not detected, used page bottom as fallback (verify no boilerplate leaked into data).
+    - 2 unrecognized line(s) in item-table region (first: page 1: 'ITteamrif fA Nrtoic.:l e8 4O7r9d9e0r.qty PU Description Unit price USD Amount US')
+
+--------------------------------------------------------------------------------
+Summary: 8 file(s), 49 record(s) extracted, 2 record(s) with validation flags.
